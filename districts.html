@@ -19,8 +19,9 @@
                 
             }
             body{
-                background-image: url(background.mp4);
-                background-size: auto;
+                background-image: url(https://images.unsplash.com/photo-1609854534028-b512f5246abc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmlzYWtoYXBhdG5hbXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+                background-repeat: no-repeat;
+                background-size: cover;
                 margin: 0;
                 padding: 10px;
             }
@@ -29,8 +30,8 @@
                 text-align: center;
             }            
             .container {
-                width: 400px; 
-                height: 200px;
+                width: 300px; 
+                height: 150px;
                 margin: 10px; 
                 background-color: transparent;  
                 border: 1px solid #ccc; 
@@ -41,12 +42,12 @@
             button{
                 background-color: transparent;
                 border-radius: 0%;
-                width: 400px; 
-                height: 200px;
+                width: 300px; 
+                height: 150px;
             }
             .video{
-                width: 400px; 
-                height: 200px;
+                width: 300px; 
+                height: 150px;
             }
             p{
                 font-family: 'Playfair Display', serif;
@@ -61,15 +62,26 @@
                 bottom: 0;
                 z-index: -1;
             }
+            @media(min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
         </style>
     </head>
     <body>
         <header>
                 <H2>AndhraPradesh</H2>
         </header>   
-        <video autoplay muted loop plays-inline class="back">
-            <source src="background.mp4">
-        </video>
+        
         <div class="map">
             <div class="left-side">
                 
@@ -77,65 +89,75 @@
         </div>
         <div class="container">
             <button class="guntur">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 143px;"></video>
             </button>
             <p>guntur</p>
         </div>
         <div class="container">
             <button class="chittoor">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
-                </button>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>chittoor</p>
         </div>
         <div class="container">
             <button class="anantapur">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>anantapur</p>
         </div>
         <div class="container">
             <button class="nellore">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
-            <p>sdfghjkl</p>
+            <p>nellore            </p>
         </div>
         <div class="container">
             <button class="ysr-kadapa">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>ysr-kadapa</p>
         </div>
         <div class="container">
             <button class="kurnool">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>kurnool</p>
         </div>
         <div class="container">
             <button class="prakasam">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>prakasam</p>
         </div>
         <div class="container">
             <button class="srikakulam">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>srikakulam</p>
         </div>
         <div class="container">
             <button class="krishna">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>krishna</p>
         </div>
         <div class="container">
             <button class="wg">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>West-Godavari</p>
         </div>
         <div class="container">
             <button class="eg">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>East-Godavari</p>
         </div>
         <div class="container">
             <button class="visakapatnam">
-                <video autoplay loop muted src="kondaveddu.mp4" style="width: 400px;height: 195px;"></video>
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 145px;"></video>
             </button>
+            <p>visakapatnam</p>
         </div>
     </body>
 </html>
