@@ -32,14 +32,21 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
+    justify-content: right;
 }
 nav ul li a{
     text-decoration: none;
     counter-reset: #fff;
     font-size: 24px;
     color: #fff;
-    
+    justify-content: right;
 
+}
+
+nav ul li a:hover{
+    
+    color: black;
+    border-radius: 5px;
 }
 
 .content{
@@ -67,7 +74,15 @@ nav ul li a{
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+    transition: 0.5s;
     
+}
+
+.content a:hover{
+    background-color: rgb(244, 236, 236);
+    color: black;
+    border-color: transparent;
+    transition: 0.5s;
 }
 
 .back{
