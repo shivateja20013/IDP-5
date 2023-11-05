@@ -1,0 +1,135 @@
+.header h1{
+    color: rgb(41, 41, 146);
+    justify-content: center;
+    font-size: larger;
+    font-style: oblique;
+    align-items: center;
+    padding-right: 100px;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 50px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    color: #000000;
+    justify-content: right;
+
+}
+
+nav ul li a:hover{
+    
+    color: rgb(90, 83, 83);
+    border-radius: 5px;
+}
+
+*{
+    font-family: "Roboto";
+}
+html, body { 
+    background-color: #ffffff; 
+}
+.container { 
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    perspective: 90rem; 
+    perspective-origin: 30% 60%; 
+}
+.div-transform{
+    display: flex
+}
+.card{
+    color: #fff;
+    border-radius: 8px;
+    padding: 0px 18px;
+    width: 300px;
+    height: 250px;
+    transition: 0.5s erase;
+    overflow: hidden;
+    transform: translate(0);
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.card h2{
+    text-transform: capitalize;
+}
+.card-1 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+}
+
+.card h4{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 48px;
+}
+.card-1{
+    background-size: cover;
+    transform: scale(1.01);
+    margin-right: 40px;
+}
+.card-1:hover{
+    transform: scale(1.11);
+    box-shadow: -7px 4px 28px -3px #b527cf;
+}
+.card-1::before{
+    background: linear-gradient(90deg,#b527cf 0%,#3546f0 100%);
+}
+.card-2{
+    background-size: cover;
+    transform: scale(1.01);
+    margin-right: 31px;
+}
+.card-2:hover{
+    transform: scale(1.11);
+    box-shadow: -7px 4px 28px -3px #3bd9d9;
+}
+.card-2::before{
+    background: linear-gradient(90deg,#3bd9d9 0%,#d9caee 100%);
+}
+
+.card-3{
+    background-size: cover;
+    transform: scale(1.01);
+    margin-right: 31px;
+}
+.card-3:hover{
+    transform: scale(1.11);
+    box-shadow: -7px 4px 28px -3px #ff9500;
+}
+.card-3::before{
+    background: linear-gradient(90deg,#ff9500 0%,#d5cb0f 100%);
+}
+

@@ -1,0 +1,213 @@
+header {
+    background-color: transparent;
+    color: black;
+    width: 198vh;
+    height: 7%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+body{
+    background-color: rgb(227, 231, 233);
+    margin: 0;
+    padding: 10px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+}            
+.container {
+    width: 300px; 
+    height: 200px;
+    margin: 10px; 
+    background-color: transparent;  
+    border: 1px solid #ccc; 
+    display: inline-block; 
+    justify-content: center;
+    margin-left: 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+button{
+    background-color: rgb(58, 52, 168);
+    color: #fff;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    width: 300px; 
+    height: 150px;
+    border-radius: 10px;
+    border: #fff;
+}
+.video{
+    width: 300px; 
+    height: 150px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    background-color: black;
+    color: antiquewhite; 
+}
+.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
+.container .guntur{
+    background-image: url(Amaravati.jpeg);
+    color: black;
+}
+.container .guntur:hover{
+    cursor: pointer;
+    background-image: url(Amaravati.gif);
+    color: #fff;
+    
+}
+.container .krishna{
+    background-image: url(Vijayawada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .krishna:hover{
+    cursor: pointer;
+    background-image: url(Vijayawada.gif);
+    color: #fff;
+}
+
+.container .tirupathi{
+    background-image: url(tirupathi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .tirupathi:hover{
+    cursor: pointer;
+    background-image: url(tirupathi.gif);
+    color: #fff;
+}
+
+.container .ysr-kadapa{
+    background-image: url(Gandikota.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .ysr-kadapa:hover{
+    cursor: pointer;
+    background-image: url(Gandikota.gif);
+    color: #fff;
+}
+
+.container .visakapatnam{
+    background-image: url(Vizag.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .visakapatnam:hover{
+    cursor: pointer;
+    background-image: url(Vizag.gif);
+    color: #fff;
+}
+
+.container .wg{
+    background-image: url(wg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .wg:hover{
+    cursor: pointer;
+    background-image: url(wg.gif);
+    color: #fff;
+}
+
+.container .eg{
+    background-image: url(eg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .eg:hover{
+    cursor: pointer;
+    background-image: url( eg.gif);
+    color: #fff;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 50px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    color: #000000;
+    justify-content: right;
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+}
+
+.container a{
+    justify-content: left;
+    color: rgb(236, 113, 19);
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 5px;
+    font-size: large;
+    font-family: Gilroy,Segoe UI,Tahoma,Geneva,Verdana,sans-serif;;
+}
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: -7px 4px 28px -3px #6a4570;
+}
+.container a:after{
+    content: '\00BB';
+}
+
+.container a:hover{
+    color: rgb(248, 4, 4);
+    font-size: x-large;
+    text-decoration: underline;
+}

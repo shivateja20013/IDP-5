@@ -1,0 +1,101 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: rgb(208, 224, 237);
+}
+.container{
+    display: inline-block;
+}
+.title h1 {
+    font-size: 75px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 5, 30);
+    padding-left: 550px;
+}
+.intro{
+    width: 500px;
+    height: auto;
+    color: rgb(32, 26, 26);
+    font-size: 30px;
+    padding-top: 50px;
+}
+.city-info{
+    width: 500px;
+    height: auto;
+    color: rgb(32, 26, 26);
+    font-size: 30px;
+    margin-left: 66%;
+    padding-top: 50px;
+}
+.tourist-spots-h2{
+    font-size: 30px;
+}
+.tourist-spots{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.Machilipatnam{
+    width: 600px;
+    height: auto;
+    padding-top: 10px;
+}
+.Kondapalli-Fort{
+    width: 600px;
+    height: auto;
+    margin-left: 60%;
+    padding-top: 50px;
+}
+.Vijayawada{
+    width: 600px;
+    height: auto;
+    padding-top: 50px;
+}
+.Pulicat-Lake{
+    width: 600px;
+    height: auto;
+    margin-left: 60%;
+    padding-top: 50px;
+}
+.Kolleru-Lake{
+    width: 600px;
+    height: auto;
+    padding-top: 50px;
+}
+nav{
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 50px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    color: #000000;
+    justify-content: right;
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+}
