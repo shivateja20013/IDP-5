@@ -156,7 +156,8 @@ p{
 }
 nav{
     width: 100%;
-    position: absolute;
+    background-color: rgb(255, 7, 7);
+    position: fixed;
     top: 0;
     left: 0;
     padding: 20px 8%;
@@ -177,8 +178,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     counter-reset: #fff;
-    font-size: 24px;
-    color: #000000;
+    font-size: 30px;
+    color: #ffffff;
+    font-style: initial;
     justify-content: right;
 
 }
