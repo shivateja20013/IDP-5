@@ -1,0 +1,72 @@
+<div class="container">
+            <button class="guntur">
+                <video autoplay loop muted src="kondaveddu.mp4" style="width: 300px;height: 143px;"></video>
+            </button>
+            <p>Guntur</p>
+        </div>
+        <div class="container">
+            <button class="chittoor">
+                <video autoplay loop muted src="tirupathi.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Chittoor</p>
+        </div>
+        <div class="container">
+            <button class="anantapur">
+                <video autoplay loop muted src="Gandikota.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Anantapur</p>
+        </div>
+        <div class="container">
+            <button class="nellore">
+                <video autoplay loop muted src="Horsely hills.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Nellore            </p>
+        </div>
+        <div class="container">
+            <button class="ysr-kadapa">
+                <video autoplay loop muted src="kadapa.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>YSR-kadapa</p>
+        </div>
+        <div class="container">
+            <button class="kurnool">
+                <video autoplay loop muted src="Srikalahasthi.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Kurnool</p>
+        </div>
+        <div class="container">
+            <button class="prakasam">
+                <video autoplay loop muted src="konaseema.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Prakasam</p>
+        </div>
+        <div class="container">
+            <button class="srikakulam">
+                <video autoplay loop muted src="Amaravati.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Srikakulam</p>
+        </div>
+        <div class="container">
+            <button class="krishna">
+                <video autoplay loop muted src="Vijayawada.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Krishna</p>
+        </div>
+        <div class="container">
+            <button class="wg">
+                <video autoplay loop muted src="Paapikondalu.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>West-Godavari</p>
+        </div>
+        <div class="container">
+            <button class="eg">
+                <video autoplay loop muted src="Lambasingi.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>East-Godavari</p>
+        </div>
+        <div class="container">
+            <button class="visakapatnam">
+                <video autoplay loop muted src="Vizag.mp4" style="width: 300px;height: 145px;"></video>
+            </button>
+            <p>Visakapatnam</p>
+        </div>

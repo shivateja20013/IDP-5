@@ -161,7 +161,7 @@ nav{
     top: 0;
     left: 0;
     padding: 20px 8%;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between;
 }

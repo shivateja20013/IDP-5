@@ -34,3 +34,38 @@ button:hover{
     background-color: rgb(60, 57, 57);
     cursor: pointer;
 }
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 50px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    color: #fff;
+    justify-content: right;
+
+}
+
+nav ul li a:hover{
+    
+    color: black;
+    border-radius: 5px;
+}

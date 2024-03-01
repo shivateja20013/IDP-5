@@ -1,7 +1,8 @@
 body{
     background-image: url(https://wallpaperaccess.com/full/27776.jpg);
-    background-size: cover;
+    background-size: fit;
     background-repeat: no-repeat;
+    background-size: height=100vh width=100vh;
 }
 form{
     background-color:   transparent;
@@ -12,6 +13,7 @@ form{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 .container{
+    padding-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -44,4 +46,39 @@ form a{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    width: 50px;
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    counter-reset: #fff;
+    font-size: 24px;
+    color: #000000;
+    justify-content: right;
+
+}
+
+nav ul li a:hover{
+    
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
 }
